@@ -1,0 +1,55 @@
+.app-header {
+  min-height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+  box-shadow: 0 4px 8px -4px #4e4a4a;
+}
+
+li {
+  list-style: none;
+  line-height: 2rem;;
+}
+
+.list-item--primary {
+  border-bottom: 1px solid #e5e5e5;
+  color: blue;
+}
+
+.error {
+  text-align: center;
+  background: #ffd5d5;
+  padding: 0.5rem;
+}
+
+ul {
+  padding: 0.5rem;
+}
+
+.legends {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+.legends li {
+  margin: 0rem 1rem;
+  list-style: square;
+}
+
+.legends .list-item--primary {
+  border: none;
+}
+
+.list-item--secondary {
+  color: red;
+}
+
+.list-item--tertiary {
+  color: green;
+}
